@@ -1,17 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <script src="/exponentialidle/community-guide/js/head.js"></script>
-        <script src="https://kit.fontawesome.com/3fe7bed0c0.js" crossorigin="anonymous"></script>
-        <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+        <script src="/exponentialidle/community-guide/scripts/script.js"></script>
     </head>
     <body>
-        <div class="w3-content" style="max-width:2000px;margin-top:46px">
-            <p class="text-color">
-                When \(a \ne 0\), there are two solutions to \(ax^2 + bx + c = 0\) and they are
-                $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
-            </p>
+        <div class="w3-content" style="max-width:100%;margin-top:46px">
+            <div class="w3-sidebar w3-bar-block w3-card w3-animate-left color-light w3-card" id="mySidenav" style="display:none">
+                <a href="javascript:void(0)" class="w3-bar-item w3-button w3-xlarge" onclick="closeNav()">&times; Close</a>
+                <a href="#" class="w3-bar-item w3-button">Link 1</a>
+                <a href="#" class="w3-bar-item w3-button">Link 2</a>
+                <a href="#" class="w3-bar-item w3-button">Link 3</a>
+            </div>
+            <button class="w3-button text-color-medium w3-xlarge" onclick="openNav()" style="position: absolute;">&#x2630; Navigate</button>
+            <div class="w3-container w3-content w3-left-align w3-padding-16" style="max-width:800px">
+                <h1 class="text-color">This is a title</h1>
+                <h3 class="text-color-light">This is a subtitle</h3>
+                <p class="text-color">
+                    When \(a \ne 0\), there are two solutions to \(ax^2 + bx + c = 0\) and they are
+                    $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
+                </p>
+            </div>
         </div>
-        <script src="/exponentialidle/community-guide/js/script.js"></script>
     </body>
 </html>
