@@ -17,11 +17,11 @@ window.onclick = function(event) {
 }
 
 // macro to add duplicate entries
-$('head').load('/exponentialidle/community-guide/scripts/head.html');
+$('head').load('/exponentialidle/community/scripts/head.html');
 $(document).ready(function() {
   // $('div.toc').prepend(makeTOC());
-  $.get("/exponentialidle/community-guide/scripts/nav.html", function(data) {$('body').prepend(data);});
-  $.get("/exponentialidle/community-guide/scripts/footer.html", function(data) {$('body').append(data);});
+  $.get("/exponentialidle/community/scripts/nav.html", function(data) {$('body').prepend(data);});
+  $.get("/exponentialidle/community/scripts/footer.html", function(data) {$('body').append(data);});
 
   if (window.matchMedia('(orientation: landscape)')) {
     console.log("landscape");

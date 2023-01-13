@@ -1,1 +1,1 @@
-# community-guide
+# exidle-community
